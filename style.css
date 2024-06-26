@@ -1,0 +1,183 @@
+
+h1{
+    font-family: verdana, arial;
+}
+h2{
+    font-family: verdana, arial;
+}
+p{
+    font-family: verdana, arial;
+    font-size: 18px;
+}
+a{
+    font-family: verdana, arial;
+    font-size: 18px;
+}
+ul{
+    font-family: verdana, arial;
+    margin-left: 110px;
+}
+li{
+    font-family: verdana, arial;
+    margin-left: 150px;
+}
+h3{
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+#headerText{
+    margin-left: 20px;
+    width: 500px;
+}
+#profileImg{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#footNotes{
+    margin-left: 10px;
+    width: 500px;
+}
+.Header{
+    display: flow-root;
+}
+body{
+    background-color: slategrey;
+}
+.footer{
+    margin-left: 3px;
+    background-color: black;
+    border: 3px solid;
+    display: flow-root; 
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: rgb(223, 223, 223);
+}
+#SideTitle{
+    margin-top: 60%;
+}
+.Sidebar{
+    position: sticky;
+    background-color: gray;
+    float: left;
+    padding: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    min-height: 80%;
+    width: 250px;
+}
+#projectButtons{
+    margin: 0px;
+    padding: 15px;
+    margin-right: 0px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    height:  100vh;
+}
+*{
+    box-sizing: border-box;
+}
+
+.pagination button.Active{
+    color:chartreuse;
+    border: 2px solid;
+    background-color: rgb(50, 50, 50);
+}
+.pagination button:hover:not(.Active){
+    background-color: #c7c7c8;
+}
+
+#backgroundCyberpunkImage{
+    background-image: url(/images/BackgroundPics/cyberpunkBackground.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+    object-fit: cover;
+    width: auto; 
+    max-height: fit-content;
+    background-position: center -410px;
+}
+#backgroundBWPPImage{
+    background-image: url(/images/BackgroundPics/TCWPP_Title.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+    object-fit: cover;
+    width: auto; 
+    max-height: fit-content;
+    background-position: center -810px;
+}
+#backgroundAddvonImage{
+    background-image: url(/images/BackgroundPics/AddvonPoster.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+    object-fit: cover;
+    width: auto; 
+    max-height: fit-content;
+    background-position: center -810px;
+}
+#backgroundReactPeojectImage{
+    background-image: url(/images/BackgroundPics/react-Logo.png);
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+    object-fit: cover;
+    width: auto; 
+    max-height: fit-content;
+    background-position: center;
+}
+#imgProfile{
+    display: flow-root;
+    width: 5%;
+    float: left;
+}
+#GameImage{
+    border: 3PX solid;
+    float: right;
+}
+
+
+
+
+
+
+a::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
+h3::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
+h2::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
+h1::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
+p::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
+li::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
+ul::selection{
+    color: rgb(86, 215, 67);
+    background-color: rgb(23, 23, 23);
+}
